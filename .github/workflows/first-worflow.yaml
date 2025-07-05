@@ -1,9 +1,6 @@
 name: Listen to Issues
 
-on:
-  issues:
-    types: [opened, edited, closed]
-
+on: issues
 jobs:
   handle-issues:
     runs-on: ubuntu-latest
