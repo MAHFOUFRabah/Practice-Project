@@ -1,5 +1,4 @@
 name: Listen to Issues
-
 on: issues
 jobs:
   handle-issues:
