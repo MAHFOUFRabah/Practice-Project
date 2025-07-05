@@ -46,16 +46,3 @@ jobs:
         run: npm run build
       - name: Deploy
         run: echo "Deploying...."
----
-name: Listen to Issues
-
-on:
-  issues:
-    types: [opened, edited, closed]
-
-jobs:
-  handle-issues:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Log Issue Event
-        run: echo "An issue event has been triggered!"

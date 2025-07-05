@@ -16,4 +16,4 @@ HelpBox.propTypes = {
   text: string,
 };
 
-export default HelpBox;
+export default HelpBox1;
